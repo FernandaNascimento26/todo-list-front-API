@@ -24,7 +24,7 @@ function useTodos() {
   };
 
   //CAMINHO PARA FAZER O GET EM TODOs POR EMAIL
-  const getTodo = '/todos/search/byEmail?email=nanda@teste.com';
+  const getTodo = '/todos/search/byEmail?email=nanda@teste8.com';
 
   useEffect(() => {api.get<Todo[]>(getTodo).then(result => {
     setTodos(result.data);});
